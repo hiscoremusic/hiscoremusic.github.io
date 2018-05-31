@@ -1047,6 +1047,10 @@
 		-webkit-transform: scale(1.0);
 		-ms-transform: scale(1.0);
 		transform: scale(1.0);
+		-moz-filter: blur(0.2rem);
+		-webkit-filter: blur(0.2rem);
+		-ms-filter: blur(0.2rem);
+		filter: blur(0.2rem);
 		-webkit-backface-visibility: hidden;
 		position: fixed;
 		top: 0;
@@ -1582,11 +1586,11 @@
 			-webkit-transform: scale(0.95);
 			-ms-transform: scale(0.95);
 			transform: scale(0.95);
-			-moz-filter: blur(0.1rem);
+/*			-moz-filter: blur(0.1rem);
 			-webkit-filter: blur(0.1rem);
 			-ms-filter: blur(0.1rem);
 			filter: blur(0.1rem);
-			opacity: 0;
+*/			opacity: 0;
 		}
 
 		body.is-loading #footer {
